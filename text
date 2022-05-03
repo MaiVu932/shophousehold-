@@ -1,0 +1,22 @@
+
+
+
+- Lấy ra
+1. subject_name
+2. teacher_name
+3. leave_time
+4. take_leave_date
+5. leaeve_reason
+6. í_enable
+7. denine_reason
+
+---Xóa đơn xin nghỉ nếu chưa đến ngày học---
+isDelete = 1 -> can delete
+isDelete = 0 -> XXXXXXXX
+
+---Sửa đơn xin nghỉ nếu Gv chưa phê duyệt----
+leave_id_list_leave = null -> can edit
+leave_id_list_leave != null -> XXXXXX
+
+
+UPDATE leaves SET subject_id = 'KTCT', leave_time = '20210525213000', leave_reason = 'gia dinh co viec ban dot xuat', take_leave_date = '20210613' WHERE leave_id = 2;
